@@ -50,7 +50,6 @@ public class QueueServer implements IQueueServer {
             Long groupId = (long) random.nextInt(100);
             groupIds.add(groupId);
             queue.add(new CustomElement(UUID.randomUUID(), groupId));
-            queue.add(new CustomElement(UUID.randomUUID(), 19L));
         }
     }
 
